@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+ body {
+  padding-top: 0;
+ }
+
+ header {
+  border-bottom: 2px solid;
+  width: 100%;
+ }
+
+ .heading {
+  width: 70%;
+  margin-right: 0;
+ }
+
+ h3,
+ p {
+  padding: 1em;
+  margin: 0;
+  display: inline-block;
+ }
+
+ p {
+  font-size: .7em;
+  margin-left: 125px;
+ }
+
+ h3 {
+  margin-top: 0;
+  padding: 0;
+ }
+
+
+
+ nav {
+  float: right;
+ }
+
+ul {
+  list-style: none;
+  margin-right: 100px;
+}
+
+li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
