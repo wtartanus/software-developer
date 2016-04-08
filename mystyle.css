@@ -2,18 +2,44 @@
   box-sizing: border-box;
 }
 
+header {
+  text-align: center;
+  background-color: rgb(68,123,255);
+}
+
+header p {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  font-size: 1.2em;
+}
+
 h3 {
-  display: inline;
-  margin: 0 auto;
+  font-family: 'Romanesco', cursive;
+  font-size: 2.2em;
+  margin-bottom: .1em;
+  margin-top: 0;
 }
 
 nav ul {
   list-style: none;
-  margin: 0 auto;
+  margin-left: -40px;
 }
 
 nav ul li {
   display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-family: 'Patua One', cursive;
+  font-size: 1.1em;
+  padding: 15px 10px;
+}
+
+nav ul li a:hover {
+  color: white;
 }
 
 
