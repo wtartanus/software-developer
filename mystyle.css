@@ -23,6 +23,7 @@ h3 {
 nav ul {
   list-style: none;
   margin-left: -40px;
+  list-style-position: inside;
 }
 
 nav ul li {
@@ -42,7 +43,46 @@ nav ul li a:hover {
   color: white;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+/**********************
+MEDIA QURIES
+**********************/
+
+@media only screen and (min-width: 1000px ) {
+  nav {
+    float: right;
+    margin-right: 70px;
+    margin-top: 25px;
+  }
+
+  h3, header p {
+    float: left;
+  }
+
+  h3 {
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+
+  nav ul{
+    margin: 0;
+  }
+
+  header p {
+    font-size: 1em;
+    margin-top: 45px;
+    padding-bottom: 10px;
+  }
+
+  .emText {
+    margin-right: 20px;
+  }
+}
 
 
 
