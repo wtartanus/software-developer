@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-color: #2D7E25;
+}
+
+header p {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  color: #AADBA5;
+  font-size: 1.2em;
+}
+
+h3 {
+  font-family: 'Tangerine', cursive;
+  font-size: 2.2em;
+  margin-bottom: .1em;
+  margin-top: 0;
+  padding: 10px;
+  color: #AADBA5;
+}
+
+nav ul {
+  list-style: none;
+  margin-left: -40px;
+  list-style-position: inside;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: #AADBA5;
+  text-decoration: none;
+  font-family: 'Patua One', cursive;
+  font-size: 1.4em;
+  padding: 15px 10px;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+.logos {
+  margin-top: 1em;
+}
+
+
+.container img {
+  border-radius: 50%;
+  width: 40%;
+}
+
+.container {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.container p {
+  margin-top: 10px;
+}
+
+.sign {
+  font-size: 1.7em;
+  color: blue;
+}
+
+
+
+
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**********************
+MEDIA QURIES
+**********************/
+@media only screen and (min-width: 800px ) {
+  .container img {
+    float: left;
+    width: 20%;
+    margin-left: 13em;
+  }
+
+  .container p {
+    margin-right: 10em;
+    margin-top: 2em;
+  }
+
+  .contact div {
+    padding-top: 1em;
+  }
+
+  .sign {
+    margin-right: 15px;
+    font-size: 1.9em;
+  }
+}
+
+
+
+@media only screen and (min-width: 1000px ) {
+  nav {
+    float: right;
+    margin-right: 70px;
+    margin-top: 25px;
+  }
+
+  h3, header p {
+    float: left;
+  }
+
+  h3 {
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+
+  nav ul{
+    margin: 0;
+  }
+
+  header p {
+    font-size: 1em;
+    margin-top: 45px;
+    padding-bottom: 10px;
+  }
+
+  .emText {
+    margin-right: 20px;
+  }
+
+  .logos{
+    display: inline;
+    position: absolute;
+    top: 2.7em;
+    left: 24.2em;
+  }
+
+}
